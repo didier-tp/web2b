@@ -14,7 +14,6 @@ if (usrn!=null && pswd!=null)
 %>
 <body>
 <%@include file="header.jsp" %>
-<%@include file="footer.jsp" %>
 <form method="post" action="">
 username:<input name="usrn" type="text" value="<%=usrn%>"/><br/>
 password:<input name="pswd" type="text" value="<%=pswd%>"/><br/>
@@ -22,5 +21,6 @@ password:<input name="pswd" type="text" value="<%=pswd%>"/><br/>
 </form>
 <hr/>
 resultat = <%=toPrint%>
+<%@include file="footer.jsp" %>
 </body>
 </html>
