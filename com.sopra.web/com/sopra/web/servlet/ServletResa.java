@@ -37,7 +37,7 @@ public class ServletResa extends HttpServlet {
 		String datedepart = request.getParameter("datedepart");
 		StatutResa statutResa = new StatutResa(depart, arrivee, datedepart);
 		// creation de l'objet de redirection
-		RequestDispatcher rd = this.getServletContext().getRequestDispatcher("/" + "param_resa.jsp");
+		RequestDispatcher rd = this.getServletContext().getRequestDispatcher("/" + "statutResa.jsp");
 
 		request.setAttribute("statutResa", statutResa);
 
