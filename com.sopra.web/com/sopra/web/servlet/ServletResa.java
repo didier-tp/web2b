@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.sopra.web.data.StatutResa;
+
 /**
  * Servlet implementation class ServletResa
  */
@@ -33,10 +35,11 @@ public class ServletResa extends HttpServlet {
 		String depart = request.getParameter("aeroportdepart");
 		String arrivee = request.getParameter("aeroportarrivee");
 		String datedepart = request.getParameter("datedepart");
+		StatutResa statutResa = new StatutResa(depart, arrivee, datedepart);
 		// creation de l'objet de redirection
 		RequestDispatcher rd = this.getServletContext().getRequestDispatcher("/" + "param_resa.jsp");
 
-		request.setAttribute("calculTva", calculTva);
+		request.setAttribute("statutResa", statutResa);
 
 		// redirection (cote serveur) du servlet vers page jsp
 		rd.forward(request, response);
