@@ -3,5 +3,5 @@
 <%@ page import = "java.util.Date" %>
 <%Date d = new Date(); %>
 <div class="entete">
-<img src="Logo.jpeg">WORLDCOMPANY, <%=d %>
+<img src="Logo.jpeg">WORLDCOMPANY entete de page, <%=d %>
 </div>

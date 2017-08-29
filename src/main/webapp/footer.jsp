@@ -3,5 +3,5 @@
 <%@ page import = "java.util.Date" %>
 
 <div class="entete">
-<img src="Logo.jpeg">WORLDCOMPANY
+<img src="Logo.jpeg">WORLDCOMPANY pied de page
 </div>
