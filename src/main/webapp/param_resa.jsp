@@ -9,9 +9,9 @@
 <body>
 
 <form method="get" action="./Servlet?">
-		Aeroport de depart: <input name="ad" /> <br/>
-		Aeroport arrive: <input name="aa" /> <br/>
-		Date <input name="date" /><br/>
+		Aeroport de depart: <input name="aeroportdepart" /> <br/>
+		Aeroport arrive: <input name="aeroportarrivee" /> <br/>
+		Date <input name="datedepart" /><br/>
 		<input type="submit"
 				value="reserver"/>
 	
