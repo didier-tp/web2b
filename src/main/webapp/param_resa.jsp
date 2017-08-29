@@ -8,9 +8,9 @@
 </head>
 <body>
 
-	<form method="get" action="./ServletResa">
+	<form method="post" action="./ServletResa">
 		Aeroport de depart: <input name="aeroportdepart" /> <br /> Aeroport
-		arrive: <input name="aeroportarrivee" /> <br /> Date <input
+		arrive: <input name="aeroportarrivee" /> <br /> Date <input type="date"
 			name="datedepart" /><br /> <input type="submit" value="reserver" />
 
 	</form>
