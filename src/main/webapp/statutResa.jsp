@@ -4,9 +4,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>statut Resa</title>
 </head>
 <body>
-
+<%@include file="header.jsp"%>
+Resa effectuee
+<hr/>
+<%String usrn = request.getParameter("usrn");%>
+Username:<%=usrn %>
+Depart:<%=((com.sopra.web.data.StatutResa)request.getAttribute("statutResa")).getAeroportdepart() %>
+Arrivee:<%=((com.sopra.web.data.StatutResa)request.getAttribute("statutResa")).getAeroportarrivee() %>
+Date:<%=((com.sopra.web.data.StatutResa)request.getAttribute("statutResa")).getDatedepart() %>
+<hr/>
+<%@include file="footer.jsp"%>
 </body>
 </html>
