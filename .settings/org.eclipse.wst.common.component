@@ -4,6 +4,7 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/com.sopra.web.Servlet"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/com.sopra.web"/>
         <property name="context-root" value="airXyWeb"/>
         <property name="java-output-path" value="/airXyWeb/target/classes"/>
     </wb-module>
