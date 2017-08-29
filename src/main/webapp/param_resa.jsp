@@ -4,9 +4,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>parametre_resa</title>
 </head>
 <body>
 
+<form method="get" action="./Servlet?">
+		Aeroport de depart: <input name="ad" /> <br/>
+		Aeroport arrive: <input name="aa" /> <br/>
+		Date <input name="date" /><br/>
+		<input type="submit"
+				value="reserver"/>
+	
+	</form>
 </body>
 </html>
